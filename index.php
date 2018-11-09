@@ -2,7 +2,7 @@
 require "vendor/autoload.php";
 require_once('vendor/linecorp/line-bot-sdk/line-bot-sdk-tiny/LINEBotTiny.php');
 $API_URL = 'https://api.line.me/v2/bot/message/reply';
-$accessToken = "ZR09S4MZtx6V5SpKwOBdfwDF+8s4x069IWHGq9Hzq03FphyDXhVRUZcFTUIqGeUebd/S8k7zVCFB+1phTPWJM899SSwJQLntFRxVmiyiAEmfVQDXOCMyB/lBsaWzVHYIFdpyXo8eodvjduSphoenKwdB04t89/1O/w1cDnyilFU=";
+$accessToken = "1G4ba3NOiAqBOvgopSr9N8VjgOMxks3WXma5zC0jubo/aQ1l71VudAugHuKl0POIAA9ts2pmU+tyxMl9+ZOBn9kOn+lwy4WRO5SY6s/NK2pwLTiolBohDJATFSpcpoqL/7QxjUGV2mB4JQilvgsxqwdB04t89/1O/w1cDnyilFU=";
 $POST_HEADER = array('Content-Type: application/json', 'Authorization: Bearer ' . $accessToken);
 
 $request = file_get_contents('php://input');   // Get request content
